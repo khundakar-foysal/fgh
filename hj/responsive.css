@@ -1,0 +1,144 @@
+/* menu */
+@media (max-width:1024px){
+    .fix-width {
+        width: 100%;
+        margin: auto;
+    }
+}
+@media (max-width:992px) {
+    .header-left {
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+    }
+    .fix-width {
+        width: 100%;
+        margin: auto;
+    }
+    .text-right {
+        text-align: center;
+    }
+    .header-right {
+        width: 100%;
+    }
+    .for-menu ul li {
+        border-right: 0;     
+    }
+}
+@media (max-width:768px){
+    .fix-width {
+        width: 100%;
+        margin: auto;
+    }
+}
+@media (max-width:576px){
+
+    .for-menu ul li a {
+        font-size: 18px;
+        padding: 0px 10px; 
+        line-height: 41px;
+    }
+    .header-left {    
+        padding: 6px 0;
+    }
+}
+
+/* banner */
+@media (max-width:992px){
+   
+    .banner {
+        padding: 100px 0;
+    }
+ 
+
+   
+}
+/* about */
+@media (max-width:992px){
+    .part-1 {
+        float: none;
+        width: 500px;
+      
+        margin: auto;
+            margin-bottom: auto;
+        margin-bottom: 15px;
+    }
+}
+@media (max-width:568px){
+    .about p {
+        width: 400px;
+        margin: auto;
+        padding: 0 20px;
+        margin-bottom: 12px;
+    }
+    
+}
+/* blog */
+@media (max-width:1024px) {
+    .blog-2 ul li {
+        background: #ddd;
+        width: 195px;
+        margin: auto;
+            margin-bottom: auto;
+        padding: 10px 20px;
+        margin-bottom: 5px;
+        box-sizing: border-box;
+        font-size: 13px;
+    }
+}
+@media (max-width:992px){
+    .blog-1 {
+        width: 65%;
+    }
+    .blog-2 {
+        width: 30%;
+    }
+
+}
+@media (max-width:680px){
+    .blog-2 {
+        width: 100%;
+    }
+    .blog-1 {
+        width: 100%;
+    }
+    .blog-2 ul li {
+        background: #ddd;
+        width: 240px;
+        margin: auto;
+        margin-bottom: auto;
+        padding: 10px 20px;
+        margin-bottom: 5px;
+        box-sizing: border-box;
+        font-size: 17px;
+    }
+    .blog-2 ul{
+        margin-bottom: 20px;
+    }
+    .blog-1 img {
+        float:none ;
+        width: 100%;
+        margin-right: 15px;
+    }
+}
+@media (max-width:568px){
+    .blog-section {
+        padding: 0 20px;
+    } 
+}
+.blog-section {
+    margin-top: 30px;
+    padding: 0 20px;
+}
+@media (max-width:1024px){
+    .icon {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .copy {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+}
